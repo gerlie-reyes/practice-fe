@@ -1,0 +1,53 @@
+main {
+  width: 100%;
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav-links li a {
+  color: #0a9396;
+}
+
+.nav-links li a:hover {
+  color: #005f73;
+}
+
+/* With Dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  /* aesthetics */
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
