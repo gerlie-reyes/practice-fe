@@ -1,6 +1,5 @@
 main {
   width: 100%;
-  background-color: gray;
 }
 
 header {
@@ -8,23 +7,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-}
-
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0 10px;
-}
-
-.nav-links li a {
-  color: #0a9396;
-}
-
-.nav-links li a:hover {
-  color: #005f73;
 }
 
 /* With Dropdown */

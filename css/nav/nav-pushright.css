@@ -1,0 +1,20 @@
+main {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+#logo {  
+  margin-right: auto;
+}
+
+#logout button {
+  border-radius: 2rem;
+  padding: 5px 15px;
+  margin-left: 15px;
+}

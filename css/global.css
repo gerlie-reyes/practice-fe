@@ -37,3 +37,27 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 .btn-primary:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+/* Navigation header */
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav-links li a {
+  color: #0a9396;
+}
+
+.nav-links li a:hover {
+  color: #005f73;
+}
+
+#logout button {
+  border-radius: 2rem;
+  padding: 5px 15px;
+}
+/* ENd Navigation header */
