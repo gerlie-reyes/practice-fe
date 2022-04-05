@@ -39,20 +39,20 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 }
 
 /* Navigation header */
-.nav-links {
+.nav-links ul {
   list-style: none;
 }
 
-.nav-links li {
+.nav-links ul li {
   display: inline-block;
   padding: 0 10px;
 }
 
-.nav-links li a {
+.nav-links ul li a {
   color: #0a9396;
 }
 
-.nav-links li a:hover {
+.nav-links ul li a:hover {
   color: #005f73;
 }
 

@@ -1,0 +1,58 @@
+
+.icon {
+  display: none;
+}
+
+.nav-links.mobile {
+  background-color: rgba(0, 18, 25, 0.8);
+  box-shadow: #0000001c 1px 1px 2px 0;
+  height: 100vh;
+  width: 45%;
+  position: relative;
+  left: -5000px;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-links.mobile ul li a {
+  color: #F1FAEE;
+  cursor: pointer;
+}
+
+.mobile-nav__items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px
+}
+
+.nav-links ul li.mobile-nav__item {
+  padding: 5px;
+}
+
+#logout-mobile {
+  background: none;
+  border-radius: 1rem;
+  display: block;
+  margin: 20px 0px;
+}
+
+.nav-links.mobile.open {
+  left: 0px;  
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the toggle */
+@media screen and (max-width: 600px) {
+  .main-nav, #logout {
+    display: none;
+  }
+
+  .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-links.mobile {
+    display: none;
+  }
+}
