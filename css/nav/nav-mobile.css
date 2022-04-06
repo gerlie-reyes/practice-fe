@@ -21,7 +21,7 @@
 .mobile-nav__items {
   display: flex;
   flex-direction: column;
-  padding: 20px 10px
+  padding: 20px 10px;
 }
 
 .nav-links ul li.mobile-nav__item {
