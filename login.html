@@ -8,43 +8,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/login.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <section class="wrapper" id="login-container">
-      <form action="index.html" method="get">
-        <div id="logo" class="row centered-text">
-          <h1>ToDo App</h1>
-          <p>Sign in your account here</p>
-        </div>
-
-        <div id="login-inputs" class="row">
-          <label>Email</label>
-          <input type="text" placeholder="Your email address" /><span
-            class="icon-user"
-          ></span>
-
-          <label>Password</label>
-          <input type="password" placeholder="Enter your password" /><span
-            class="icon-lock"
-          ></span>
-        </div>
-
-        <div class="row centered-text">
-          <p>
-            ToDo App's Privacy Policy
-            <span><a href="#!">Privay Policy</a></span>
-          </p>
-          <div id="forgot">
-            <a href="#!">Forgot Password</a>
+    <main>
+      <section class="wrapper" id="login-container">
+        <form action="index.html" method="get">
+          <div id="logo" class="row centered-text">
+            <h1>ToDo App</h1>
+            <p>Sign in your account here</p>
           </div>
-        </div>
 
-        <button class="btn btn-primary" id="login-btn">Login</button>
-      </form>
-    </section>
+          <div id="login-inputs" class="row">
+            <label>Email</label>
+            <input type="text" placeholder="Your email address" /><span
+              class="icon-user"
+            ></span>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" /><span
+              class="icon-lock"
+            ></span>
+          </div>
+
+          <div class="row centered-text">
+            <p>
+              ToDo App's Privacy Policy
+              <span><a href="#!">Privay Policy</a></span>
+            </p>
+            <div id="forgot">
+              <a href="#!">Forgot Password</a>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" id="login-btn">Login</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
