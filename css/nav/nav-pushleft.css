@@ -1,0 +1,19 @@
+main {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+#logout {  
+  margin-left: auto;
+}
+
+#logout button{
+  border-radius: 2rem;
+  padding: 5px 15px;
+}
