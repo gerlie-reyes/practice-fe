@@ -54,3 +54,15 @@ h2#hero-header {
 .clearfix:after {
   clear: both
 }
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the toggle */
+@media screen and (max-width: 600px) {
+  h2#hero-header {
+    font-size: 3.75rem;
+  }
+
+  .hero-content {
+    width: 340px;
+  }
+}
