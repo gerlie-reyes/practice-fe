@@ -18,12 +18,24 @@
 }
 
 .author-bio {
+  color: #464646;
   display: inline-block;
   margin-right: 32px;
   vertical-align: middle;
   width: 80%;
 }
 
+.author-bio__name {
+  letter-spacing: 0.2px;
+}
+
+.author-bio__title {
+  color: #737373;
+}
+
+.author-bio__description {
+  margin: 32px 0;
+}
 .author-social {
   display: inline-block;
   vertical-align: middle;
