@@ -45,13 +45,13 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 .main-header {
   background-color: #fff;
   z-index: 9999;
-  box-shadow: 0 1px 4px 0 #ccc;
-  /* position: sticky;
-  top: 0px; */
 
-  position: fixed;
+  position: sticky;
+  top: 0px;
+
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
 /* Navigation header */
