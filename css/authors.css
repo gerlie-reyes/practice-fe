@@ -1,0 +1,38 @@
+.authors {
+  width: 100%;
+  padding: 15px 5%;
+}
+
+.author {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
+  width: 70%;
+  margin: 32px 0px;
+  padding: 60px;
+}
+
+.author.odd {
+  float: right;
+}
+
+.author-bio {
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.author-social {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 15%;
+}
+
+.author-social__pic {
+  display: block;
+  height: 106px;
+  width: 106px;
+  border-radius: 50%;
+  border: 3px solid #4DB6AC;
+}

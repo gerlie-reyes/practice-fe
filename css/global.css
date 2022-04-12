@@ -38,6 +38,10 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
+.clearfix {
+  clear: both;
+}
+
 /* Navigation header */
 .nav-links {
   list-style: none;
