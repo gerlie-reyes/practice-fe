@@ -1,6 +1,6 @@
 .authors {
   width: 100%;
-  padding: 15px 5%;
+  padding: 0.9rem 5%;
   /* margin-top: 80px; */
 }
 
@@ -8,8 +8,8 @@
   background-color: #FFFFFF;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
   width: 70%;
-  margin: 32px 0px;
-  padding: 60px;
+  margin: 2rem 0;
+  padding: 3.5rem;
   position: relative;
 }
 
@@ -20,7 +20,7 @@
 .author-bio {
   color: #464646;
   display: inline-block;
-  margin-right: 32px;
+  margin-right: 2rem;
   vertical-align: middle;
   width: 80%;
 }
@@ -34,7 +34,7 @@
 }
 
 .author-bio__description {
-  margin: 32px 0;
+  margin: 2rem 0;
 }
 .author-social {
   display: inline-block;
@@ -52,13 +52,13 @@
 }
 
 .author--new-post {
-  padding: 5px 10px;
+  padding: 0.3rem 0.6rem;
   border: 1px solid #4DB6AC;
   border-radius: 5px 10px;
   background-color: aquamarine;
   color: rgb(117, 117, 117);
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.9rem;
   text-transform: uppercase;
   position: absolute;
   top: 20px;

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 5%;
+  padding: 0.9rem 5%;
 }
 
 #logo {  
@@ -12,6 +12,6 @@
 
 #logout button {
   border-radius: 2rem;
-  padding: 5px 15px;
-  margin-left: 15px;
+  padding: 0.3rem 0.9rem;
+  margin-left: 0.9rem;
 }

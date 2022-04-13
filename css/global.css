@@ -8,7 +8,7 @@
 
 body {
   font-weight: 500; 
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
@@ -21,7 +21,7 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 }
 
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 1.3rem;
 }
 
 .btn-primary {
@@ -29,9 +29,9 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
   border: 0;
   box-shadow: #0000001c 1px 1px 2px 0;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  padding: 5px 10px;
+  padding: 0.32rem 0.63rem;
 }
 
 .btn-primary:hover {
@@ -47,7 +47,7 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
   z-index: 9999;
 
   position: sticky;
-  top: 0px;
+  top: 0;
 
   /* position: fixed;
   top: 0;
@@ -61,7 +61,7 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 
 .nav-links li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 0.63rem;
 }
 
 .nav-links li a {
@@ -74,6 +74,6 @@ body, span, div, p, a, h1, h2, h3, h4, label, li, a, button {
 
 #logout button {
   border-radius: 2rem;
-  padding: 5px 15px;
+  padding: 0.32rem 0.9rem;
 }
 /* ENd Navigation header */
